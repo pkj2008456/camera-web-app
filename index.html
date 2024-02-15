@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- 
+        This meta tag sets the viewport of the webpage, allowing it to be responsive and adapt to different screen sizes. The "width=device-width" attribute sets the width of the viewport to the width of the device, while the "initial-scale=1" attribute sets the initial zoom level when the page is first loaded.
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Name of the app -->
+        <title>Camera Mobile Website</title>
+
+        <!-- Link to main style sheet -->
+        <link rel="stylesheet" href="style.css"> 
+
+    </head>
+    <main id="camera">
+        <canvas id="camera-view"></canvas>
+        <video id = "camera-device" autoplay playsinline></video>
+        <img id="photo-display">
+        <button id = "front-camera-button">Front Camera</button>
+        <button id ="take-photo-button">Take Photo</button>
+    </main>
+    <script src="app.js"></script>
+</html>
